@@ -1,10 +1,24 @@
-# 崑山(新) / kunshan_xinpai_zi
+# Kunshan (newer) / 崑山(新) / 昆山(新) / kunshan_xinpai_zi
+
+## English (en)
 
 Rule revision: 2026-09-10. Generated from [component rules](../../rules/component-rules.json).
 
-Read the [selection order and field definitions](../rulebook.md) before using these tables. Multiple outputs mean a conflict at this condition, not free alternatives. Empty strings are shown as `""`.
+Read the [selection order and field definitions](../rulebook.en.md) before using these tables. Multiple outputs mean a conflict at this condition, not free alternatives. Empty strings are shown as `""`.
 
-| Family | Condition (JSON array) | Outputs (JSON array) |
+## Traditional Chinese (zh-TC)
+
+規則修訂日期: 2026-09-10. 從[組件規則](../../rules/component-rules.json)生成.
+
+使用前請讀[選擇順序及欄位定義](../rulebook.md). 多個輸出表示此條件存在衝突, 不表示可任選. 空字串以 `""` 顯示.
+
+## Simplified Chinese (zh-SC)
+
+规则修订日期: 2026-09-10. 从[组件规则](../../rules/component-rules.json)生成.
+
+使用前请读[选择顺序及字段定义](../rulebook.zh-SC.md). 多个输出表示此条件存在冲突, 不表示可任选. 空字符串以 `""` 显示.
+
+| Family / 類型 / 类型 | Condition (JSON array) / 條件 / 条件 | Outputs (JSON array) / 輸出 / 输出 |
 | --- | --- | --- |
 | final | ["kunshan_xinpai_zi","default","i"] | ["i","yi"] |
 | final | ["kunshan_xinpai_zi","default","in"] | ["in","yin"] |
@@ -1091,4 +1105,4 @@ Read the [selection order and field definitions](../rulebook.md) before using th
 | tone | ["kunshan_xinpai_zi","default","52",false,"voiceless_obstruent","modal_or_unmarked"] | ["3"] |
 | tone | ["kunshan_xinpai_zi","default","52",false,"zero","modal_or_unmarked"] | ["3"] |
 
-Documentation: CC BY-SA 4.0. Rule configuration: GPL-3.0-only.
+Documentation / 文件 / 文档: CC BY-SA 4.0. Rule configuration / 規則配置 / 规则配置: GPL-3.0-only.

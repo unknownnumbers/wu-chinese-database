@@ -1,5 +1,7 @@
 # 八地 IPA 與吳拼的共性與差異
 
+[English (en)](common-and-differences.en.md) | [Traditional Chinese (zh-TC)](common-and-differences.md) | [Simplified Chinese (zh-SC)](common-and-differences.zh-SC.md)
+
 本表整理共同聲母、單字本調及各資料點的基本韻母與必要分支. 表內只列規則對應, 不包含逐字記錄或已見音節證據.
 
 閱讀表是合併後的摘要, 並非全部條件的逐列展開. 機器可讀的完整條件見 [組件規則](../rules/component-rules.json), 單字本調見 [本調資料](../rules/citation-tones.json). 選擇順序、唯一性與 y/w 起首限制見 [規則書](rulebook.md).

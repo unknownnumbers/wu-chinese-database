@@ -1,5 +1,7 @@
 # IPA 與吳拼宣告式規則書
 
+[English (en)](rulebook.en.md) | [Traditional Chinese (zh-TC)](rulebook.md) | [Simplified Chinese (zh-SC)](rulebook.zh-SC.md)
+
 本次發布八個地區及新老派資料點的 IPA 與吳拼組件規則、單字本調對照和閱讀說明. 轉換對象是指定地區的語音結構, 字頭、字義和國語讀音不參與規則選擇.
 
 本庫提供宣告式資料與規則書. 本次沒有提供可獨立執行的 IPA 解析器或雙向轉換器, 也沒有提供已見音節清單 (attested inventory). 下文描述資料的含義與規則選擇方式, 不能視為本庫已具備相應執行能力.

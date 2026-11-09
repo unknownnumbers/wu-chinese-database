@@ -1,5 +1,5 @@
 {
-  "version": "v0.1.0",
+  "version": "v0.1.1",
   "rules_revision": "2026-09-10",
   "checks": {
     "rule_count": 9830,
@@ -17,7 +17,12 @@
     "local_links": "pass",
     "license_file_coverage": "complete"
   },
-  "validation_scope": "Static rule structure, citation-tone consistency, documentation generation, relative links and file integrity. No pronunciation conversion or source-corpus regression executed.",
+  "documentation_languages": [
+    "en",
+    "zh-TC",
+    "zh-SC"
+  ],
+  "validation_scope": "Static rule structure, citation-tone consistency, documentation generation, translated section/table parity, relative links and file integrity. No pronunciation conversion or source-corpus regression executed.",
   "files": [
     {
       "path": ".gitattributes",
@@ -46,78 +51,108 @@
     },
     {
       "path": "README.md",
-      "bytes": 5248,
-      "sha256": "4d363e04414518238740a41c294b43e48e80e54f4176add422d2090be60486c0"
+      "bytes": 5275,
+      "sha256": "a3665bc7948f51ce9b15debaf1b8edc1609f1886eace6c74355c97ea11681161"
     },
     {
       "path": "SOURCES.md",
-      "bytes": 2739,
-      "sha256": "938f8a56d441c92c1147607c4e3acbad8d252cb4cb3bc93b6969434991ac915e"
+      "bytes": 2976,
+      "sha256": "2cb8792e37192194b2e86433d9773ed94d0c6ab309bd758c9a56077e19a6e45d"
+    },
+    {
+      "path": "docs/common-and-differences.en.md",
+      "bytes": 13757,
+      "sha256": "cc027bf108672cac1cedeb7f90f23839e00484bb995b228459d8e070c0c9a610"
     },
     {
       "path": "docs/common-and-differences.md",
-      "bytes": 11557,
-      "sha256": "0da8df00d4a18e8e285933d10674ff4b17151b12c6088f15b58b769d93857f94"
+      "bytes": 11726,
+      "sha256": "8e2d21b897a3fc6d310152c424732b53ed9298bd0042a598317a9756d2382604"
+    },
+    {
+      "path": "docs/common-and-differences.zh-SC.md",
+      "bytes": 11732,
+      "sha256": "12405812bb91d3ac71a9bbc44f7ab5eb9ba5a727af3e62fb7bd5b6637a0caaaa"
+    },
+    {
+      "path": "docs/regions.en.md",
+      "bytes": 1171,
+      "sha256": "ee05598f8a842b806e3d5a40cbadbfd925c726e6295b19a9ff18ca3d3397c350"
     },
     {
       "path": "docs/regions.md",
-      "bytes": 1033,
-      "sha256": "ae4299f3e839114ea20272fa1244f16009cfa133a754a05f0b5c9e9d0be1c49f"
+      "bytes": 1106,
+      "sha256": "306da93fe93648f769695cb517f39a24d664b041487c0865c09fecd33ce45a0a"
+    },
+    {
+      "path": "docs/regions.zh-SC.md",
+      "bytes": 1112,
+      "sha256": "b8ae6829b1ac986dc87e830541229646d9e7c57f5668cb4c529d2729ac150986"
     },
     {
       "path": "docs/regions/changshu.md",
-      "bytes": 79376,
-      "sha256": "d2a466461c82f191de007c1825d36f5e38f11e3ea78db843eb4d2e07a9aebb5b"
+      "bytes": 80074,
+      "sha256": "3f4f32639715c582f5f22d8eba12b2d82a554befcfc7f4ac9f57563273bd19b4"
     },
     {
       "path": "docs/regions/jiaxing.md",
-      "bytes": 68890,
-      "sha256": "9eeb0cc63855eba9e2d7d62fbeef877097172783d0e03fccbabdea2c6a5ef844"
+      "bytes": 69587,
+      "sha256": "51a9f8b37c0c9f6d33b772954c0d81342be03b54d8ab6b9b3f30225024f959c9"
     },
     {
       "path": "docs/regions/kunshan_lao.md",
-      "bytes": 79191,
-      "sha256": "4dabb4ef1b97d097f1bbd95ea462f5d8bf7a7b17c2a5ddab0b2f63105b9c7574"
+      "bytes": 79901,
+      "sha256": "bd38c695c951f4d11b5af23aeac390188316ed64775f4becf542f302a8bc4504"
     },
     {
       "path": "docs/regions/kunshan_xinpai_zi.md",
-      "bytes": 76558,
-      "sha256": "ccac678a52a576795436338292b039374d447573a4046ce1cc569ba950415004"
+      "bytes": 77268,
+      "sha256": "6920b1ad0404014b976f2d444169be81bf6ceefa1d8d18a6913eae5327ed1ea2"
     },
     {
       "path": "docs/regions/shanghai.md",
-      "bytes": 71976,
-      "sha256": "2a2e724f4dcacb429ce3bb0ed7eba0431dde6299d2b0017c0b5046be6dd933f8"
+      "bytes": 72674,
+      "sha256": "521cf2679f362296d3f4021afb545717324c517cd9cf40c3935759de1a3ac5c2"
     },
     {
       "path": "docs/regions/shanghai_laopai.md",
-      "bytes": 94181,
-      "sha256": "145e9752c6e45e524d8caa25e525555c23abcedf854dd42403d1468e2580aaff"
+      "bytes": 94892,
+      "sha256": "414156728f21f63fd7737600476095d3fac3265ff842a3bffb63028e4b5bcf4c"
     },
     {
       "path": "docs/regions/suzhou_zi.md",
-      "bytes": 84497,
-      "sha256": "62277f720217c7a09fd908c8e33bcacd6452885459395b3769273bfc875fb319"
+      "bytes": 85193,
+      "sha256": "9e37d66be0fb2d87a5948753984b1f31568887efdc10e2d57d9827d66d5bb9dc"
     },
     {
       "path": "docs/regions/wuxi_zi.md",
-      "bytes": 75382,
-      "sha256": "99e48dc51725e00c84239ddce7a2d45fa94ac51b37f491ff1227205db7fd714e"
+      "bytes": 76076,
+      "sha256": "a6a3417c3cb2da15930437f4a90b510ed8611a1da5bec62f8568b595db33c613"
+    },
+    {
+      "path": "docs/rulebook.en.md",
+      "bytes": 13185,
+      "sha256": "2905f547a9e7f7350db150e74c5d335146c042c2455e4f1b0f5d7b1d4c954ba8"
     },
     {
       "path": "docs/rulebook.md",
-      "bytes": 9511,
-      "sha256": "e867d595decfde95f9773ab0eb9624e463730a84420a1ff658e07ba87d940474"
+      "bytes": 9638,
+      "sha256": "d03cc9b9420961c4d71480e8560113a5c6cd5addcc2a1ca33ac6d9a2a155493a"
+    },
+    {
+      "path": "docs/rulebook.zh-SC.md",
+      "bytes": 9668,
+      "sha256": "3a4254c2dbec42f72a96d577b2ed61bb492c9c8717f4b1c210c41cb103a78187"
     },
     {
       "path": "license-index.json",
-      "bytes": 7851,
-      "sha256": "9d97f8617a69561bfda9b97c41119c80abdc31d3fd137f529b6ef85701ec6c2c"
+      "bytes": 9955,
+      "sha256": "15804f6477f809364dba622d3385d7297b67fe92676ed88c940725bacf4b0a60"
     },
     {
       "path": "package.json",
-      "bytes": 476,
-      "sha256": "a51aead30f2c2309e89bf4df4f3c222475327fb9b78d696dd7ac40022dde4f0f"
+      "bytes": 496,
+      "sha256": "352e737dea01c89f7204f1d0951dfd48033f86c109ed2a26cc10ab5a0f3105d9"
     },
     {
       "path": "rules/citation-tones.json",
@@ -131,8 +166,8 @@
     },
     {
       "path": "tools/build.mjs",
-      "bytes": 6735,
-      "sha256": "258b2b3ed07bc75d02d742a7550dd774dde8e8dcbea79247a4d38307de0606fa"
+      "bytes": 9200,
+      "sha256": "8e72dc648a4b87922b17c3857a054d979a7f01b402131a2b151427722572c331"
     }
   ]
 }

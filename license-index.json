@@ -1,0 +1,188 @@
+{
+  "version": "v0.1.0",
+  "index_and_integrity_metadata_license": "CC-BY-SA-4.0",
+  "integrity_metadata_files": [
+    "license-index.json",
+    "release-manifest.json",
+    "SHA256SUMS"
+  ],
+  "external_reference_scope": "Citations only; no upstream collection, text, audio, site pages or library packages redistributed. Licenses cover original contributions, not phonetic facts.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "license": "GPL-3.0-only",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": ".node-version",
+      "license": "GPL-3.0-only",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "LICENSE.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "LICENSES/CC-BY-SA-4.0.txt",
+      "license": "CC legal code: own terms retained",
+      "source": "https://creativecommons.org/licenses/by-sa/4.0/legalcode.txt",
+      "version": "CC BY-SA 4.0 International",
+      "modification": "None; unmodified downloaded bytes",
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "path": "LICENSES/GPL-3.0-only.txt",
+      "license": "GPL-3.0 license text: verbatim-copy permission",
+      "source": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/GPL-3.0-only.txt",
+      "version": "GNU GPL version 3, 2007-06-29",
+      "modification": "None; unmodified downloaded bytes",
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "README.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "SOURCES.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "docs/common-and-differences.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "docs/regions.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "docs/regions/changshu.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/jiaxing.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/kunshan_lao.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/kunshan_xinpai_zi.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/shanghai.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/shanghai_laopai.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/suzhou_zi.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/regions/wuxi_zi.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "tools/build.mjs and rules/component-rules.json",
+      "version": "v0.1.0",
+      "modification": "Deterministic Markdown rendering of every rule condition for the region"
+    },
+    {
+      "path": "docs/rulebook.md",
+      "license": "CC-BY-SA-4.0",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "package.json",
+      "license": "GPL-3.0-only",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    },
+    {
+      "path": "rules/citation-tones.json",
+      "license": "GPL-3.0-only",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Project analytical rules, revision 2026-09-10; phonetic reference context: https://www.wugniu.com/",
+      "version": "2026-09-10",
+      "modification": "Retain component condition and output values; omit evidence identifiers and record counts"
+    },
+    {
+      "path": "rules/component-rules.json",
+      "license": "GPL-3.0-only",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Project analytical rules, revision 2026-09-10; phonetic reference context: https://www.wugniu.com/",
+      "version": "2026-09-10",
+      "modification": "Retain component condition and output values; omit evidence identifiers and record counts"
+    },
+    {
+      "path": "tools/build.mjs",
+      "license": "GPL-3.0-only",
+      "copyright": "2026 unknownnumbers and contributors",
+      "source": "Original project publication materials",
+      "version": "v0.1.0",
+      "modification": "Original publication text, build configuration or validation tool"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "version": "v0.1.0",
+  "rules_revision": "2026-09-10",
+  "checks": {
+    "rule_count": 9830,
+    "family_counts": {
+      "onset": 224,
+      "onset_final": 4079,
+      "final": 367,
+      "final_environment": 935,
+      "final_onset": 4079,
+      "tone": 146
+    },
+    "conflicting_conditions_preserved": 182,
+    "tone_constraints": "146 consistent",
+    "generated_tables": "8 exact",
+    "local_links": "pass",
+    "license_file_coverage": "complete"
+  },
+  "validation_scope": "Static rule structure, citation-tone consistency, documentation generation, relative links and file integrity. No pronunciation conversion or source-corpus regression executed.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 8,
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da"
+    },
+    {
+      "path": ".node-version",
+      "bytes": 8,
+      "sha256": "d9f318747a126ce2247661af67852b185def7789492eabfad7bba322be087c33"
+    },
+    {
+      "path": "LICENSE.md",
+      "bytes": 1165,
+      "sha256": "463749b5fc98667da98657bfaa3ec14e3de1a8d6aee0d2c3051776602587b68f"
+    },
+    {
+      "path": "LICENSES/CC-BY-SA-4.0.txt",
+      "bytes": 20138,
+      "sha256": "28a9529c7d0bb4dc51f4bf5c116a3d16ef247a052f7591466768ddf563fd1cf5"
+    },
+    {
+      "path": "LICENSES/GPL-3.0-only.txt",
+      "bytes": 34674,
+      "sha256": "fb981668c18a279e285fc4d83fba1e836cc84dd4daa73c9697d3cfd2d8aca6e0"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5248,
+      "sha256": "4d363e04414518238740a41c294b43e48e80e54f4176add422d2090be60486c0"
+    },
+    {
+      "path": "SOURCES.md",
+      "bytes": 2739,
+      "sha256": "938f8a56d441c92c1147607c4e3acbad8d252cb4cb3bc93b6969434991ac915e"
+    },
+    {
+      "path": "docs/common-and-differences.md",
+      "bytes": 11557,
+      "sha256": "0da8df00d4a18e8e285933d10674ff4b17151b12c6088f15b58b769d93857f94"
+    },
+    {
+      "path": "docs/regions.md",
+      "bytes": 1033,
+      "sha256": "ae4299f3e839114ea20272fa1244f16009cfa133a754a05f0b5c9e9d0be1c49f"
+    },
+    {
+      "path": "docs/regions/changshu.md",
+      "bytes": 79376,
+      "sha256": "d2a466461c82f191de007c1825d36f5e38f11e3ea78db843eb4d2e07a9aebb5b"
+    },
+    {
+      "path": "docs/regions/jiaxing.md",
+      "bytes": 68890,
+      "sha256": "9eeb0cc63855eba9e2d7d62fbeef877097172783d0e03fccbabdea2c6a5ef844"
+    },
+    {
+      "path": "docs/regions/kunshan_lao.md",
+      "bytes": 79191,
+      "sha256": "4dabb4ef1b97d097f1bbd95ea462f5d8bf7a7b17c2a5ddab0b2f63105b9c7574"
+    },
+    {
+      "path": "docs/regions/kunshan_xinpai_zi.md",
+      "bytes": 76558,
+      "sha256": "ccac678a52a576795436338292b039374d447573a4046ce1cc569ba950415004"
+    },
+    {
+      "path": "docs/regions/shanghai.md",
+      "bytes": 71976,
+      "sha256": "2a2e724f4dcacb429ce3bb0ed7eba0431dde6299d2b0017c0b5046be6dd933f8"
+    },
+    {
+      "path": "docs/regions/shanghai_laopai.md",
+      "bytes": 94181,
+      "sha256": "145e9752c6e45e524d8caa25e525555c23abcedf854dd42403d1468e2580aaff"
+    },
+    {
+      "path": "docs/regions/suzhou_zi.md",
+      "bytes": 84497,
+      "sha256": "62277f720217c7a09fd908c8e33bcacd6452885459395b3769273bfc875fb319"
+    },
+    {
+      "path": "docs/regions/wuxi_zi.md",
+      "bytes": 75382,
+      "sha256": "99e48dc51725e00c84239ddce7a2d45fa94ac51b37f491ff1227205db7fd714e"
+    },
+    {
+      "path": "docs/rulebook.md",
+      "bytes": 9511,
+      "sha256": "e867d595decfde95f9773ab0eb9624e463730a84420a1ff658e07ba87d940474"
+    },
+    {
+      "path": "license-index.json",
+      "bytes": 7851,
+      "sha256": "9d97f8617a69561bfda9b97c41119c80abdc31d3fd137f529b6ef85701ec6c2c"
+    },
+    {
+      "path": "package.json",
+      "bytes": 476,
+      "sha256": "a51aead30f2c2309e89bf4df4f3c222475327fb9b78d696dd7ac40022dde4f0f"
+    },
+    {
+      "path": "rules/citation-tones.json",
+      "bytes": 1028,
+      "sha256": "fe15249cdc915c6005dfa40cb778f4becbefe09c657d2ed7129934e0845ca90d"
+    },
+    {
+      "path": "rules/component-rules.json",
+      "bytes": 1839518,
+      "sha256": "811a1d4c318a889ded3eb7f0351946c6fe26734330d5ecbf26ab4f9b39db2b5b"
+    },
+    {
+      "path": "tools/build.mjs",
+      "bytes": 6735,
+      "sha256": "258b2b3ed07bc75d02d742a7550dd774dde8e8dcbea79247a4d38307de0606fa"
+    }
+  ]
+}

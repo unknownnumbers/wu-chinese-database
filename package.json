@@ -1,6 +1,6 @@
 {
   "name": "wu-chinese-database",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "description": "IPA-Wupin white-box rules and rulebook for selected Wu Chinese varieties",
   "type": "module",

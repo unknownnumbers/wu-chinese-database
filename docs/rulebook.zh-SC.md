@@ -2,6 +2,8 @@
 
 [English (en)](rulebook.en.md) | [Traditional Chinese (zh-TC)](rulebook.md) | [Simplified Chinese (zh-SC)](rulebook.zh-SC.md)
 
+想了解拼式的读法、各地重点及组件演示, 请先读[人读拼读指南](common-and-differences.zh-SC.md). 本文再说明数据格式及精确选择顺序.
+
 本次发布八个地区及新老派数据点的 IPA 与吴拼组件规则、单字本调对照和阅读说明. 转换对象是指定地区的语音结构, 字头、字义和国语读音不参与规则选择.
 
 本库提供宣告式数据与规则书. 本次没有提供可独立执行的 IPA 解析器或双向转换器, 也没有提供已见音节清单 (attested inventory). 下文描述数据的含义与规则选择方式, 不能视为本库已具备相应执行能力.

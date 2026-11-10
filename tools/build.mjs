@@ -88,6 +88,12 @@ function files(directory = root) {
   }).sort();
 }
 const all = files();
+for (const name of ['SOURCES.md', 'LICENSE.md']) {
+  const text = read(name).toString();
+  for (const language of ['English (en)', 'Traditional Chinese (zh-TC)', 'Simplified Chinese (zh-SC)']) {
+    assert.ok(text.includes(`## ${language}`), `Missing full language section in ${name}`);
+  }
+}
 for (const base of ['rulebook', 'common-and-differences', 'regions']) {
   const variants = [`docs/${base}.md`, `docs/${base}.en.md`, `docs/${base}.zh-SC.md`];
   const texts = variants.map(name => read(name).toString());

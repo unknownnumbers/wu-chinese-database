@@ -1,5 +1,5 @@
 {
-  "version": "v0.1.1",
+  "version": "v0.1.2",
   "rules_revision": "2026-09-10",
   "checks": {
     "rule_count": 9830,
@@ -36,8 +36,8 @@
     },
     {
       "path": "LICENSE.md",
-      "bytes": 1165,
-      "sha256": "463749b5fc98667da98657bfaa3ec14e3de1a8d6aee0d2c3051776602587b68f"
+      "bytes": 3143,
+      "sha256": "c97a6fdc6c1c1fb00f8b2b3e43a6102eaec2c0c67d711f8897c1f6c66ca6bb15"
     },
     {
       "path": "LICENSES/CC-BY-SA-4.0.txt",
@@ -51,28 +51,28 @@
     },
     {
       "path": "README.md",
-      "bytes": 5275,
-      "sha256": "a3665bc7948f51ce9b15debaf1b8edc1609f1886eace6c74355c97ea11681161"
+      "bytes": 5704,
+      "sha256": "2ae2976bf3d519570a48440c0fcd70dea2a31766ea66cb52238a2baf83f4bc7f"
     },
     {
       "path": "SOURCES.md",
-      "bytes": 2976,
-      "sha256": "2cb8792e37192194b2e86433d9773ed94d0c6ab309bd758c9a56077e19a6e45d"
+      "bytes": 8785,
+      "sha256": "20ca72a20d8c32173e94ad15f296e2712b3f9f3bbe3c37d55fd7823a2caf5942"
     },
     {
       "path": "docs/common-and-differences.en.md",
-      "bytes": 13757,
-      "sha256": "cc027bf108672cac1cedeb7f90f23839e00484bb995b228459d8e070c0c9a610"
+      "bytes": 30657,
+      "sha256": "819f13b81b9e6afbadfc23ad059fd6bff17722e61fd17f5979be927c294517c6"
     },
     {
       "path": "docs/common-and-differences.md",
-      "bytes": 11726,
-      "sha256": "8e2d21b897a3fc6d310152c424732b53ed9298bd0042a598317a9756d2382604"
+      "bytes": 23962,
+      "sha256": "a28e9f275ad961fae8340cf8dd680195e9dd72e8e3a8622c0e4e8ee6892bbf12"
     },
     {
       "path": "docs/common-and-differences.zh-SC.md",
-      "bytes": 11732,
-      "sha256": "12405812bb91d3ac71a9bbc44f7ab5eb9ba5a727af3e62fb7bd5b6637a0caaaa"
+      "bytes": 23986,
+      "sha256": "149562868430f7e9a35994db8635127eb60e33fc91f4295971b95082b5247f47"
     },
     {
       "path": "docs/regions.en.md",
@@ -131,28 +131,28 @@
     },
     {
       "path": "docs/rulebook.en.md",
-      "bytes": 13185,
-      "sha256": "2905f547a9e7f7350db150e74c5d335146c042c2455e4f1b0f5d7b1d4c954ba8"
+      "bytes": 13415,
+      "sha256": "ad5108e23533cfa21d05ad421ea713f85e1c90f5196151e0dd3b085c811f27fd"
     },
     {
       "path": "docs/rulebook.md",
-      "bytes": 9638,
-      "sha256": "d03cc9b9420961c4d71480e8560113a5c6cd5addcc2a1ca33ac6d9a2a155493a"
+      "bytes": 9803,
+      "sha256": "0923a4c20f781d915ba09ac0963cc73d1ccc66e1c04e5fb9d170721a0a9c88c5"
     },
     {
       "path": "docs/rulebook.zh-SC.md",
-      "bytes": 9668,
-      "sha256": "3a4254c2dbec42f72a96d577b2ed61bb492c9c8717f4b1c210c41cb103a78187"
+      "bytes": 9839,
+      "sha256": "959b11ad8ab630bb8151cc7f57913a060d24abc1025693de36e08dfedecc1c09"
     },
     {
       "path": "license-index.json",
-      "bytes": 9955,
-      "sha256": "15804f6477f809364dba622d3385d7297b67fe92676ed88c940725bacf4b0a60"
+      "bytes": 10372,
+      "sha256": "589773b0a3c7581f7a98495a244b9273c12494e841ba282c350f1063a99e956e"
     },
     {
       "path": "package.json",
       "bytes": 496,
-      "sha256": "352e737dea01c89f7204f1d0951dfd48033f86c109ed2a26cc10ab5a0f3105d9"
+      "sha256": "406212fc0dc538ca1fa6e08c2c203718258f586b04138eea8a6d1bfbcbf537a7"
     },
     {
       "path": "rules/citation-tones.json",
@@ -166,8 +166,8 @@
     },
     {
       "path": "tools/build.mjs",
-      "bytes": 9200,
-      "sha256": "8e72dc648a4b87922b17c3857a054d979a7f01b402131a2b151427722572c331"
+      "bytes": 9493,
+      "sha256": "32da9377cc9dda332298c09452f6dd08e1c4d6673727bca88e237fdf969fefcb"
     }
   ]
 }

@@ -2,6 +2,8 @@
 
 [English (en)](rulebook.en.md) | [Traditional Chinese (zh-TC)](rulebook.md) | [Simplified Chinese (zh-SC)](rulebook.zh-SC.md)
 
+For spelling explanations, local highlights and worked component examples, start with the [human-readable pronunciation guide](common-and-differences.en.md). This document then explains the data format and exact selection order.
+
 This release provides IPA and Wupin component rules, citation-tone correspondences and reading notes for eight local data points, distinguishing older and newer varieties where applicable. The object of conversion is the phonetic structure of a specified variety. Headwords, meanings and Mandarin pronunciations do not participate in rule selection.
 
 This repository provides declarative data and a rulebook. This release does not provide a standalone IPA parser or bidirectional converter, or an attested syllable inventory. The descriptions below explain the data and rule selection. They do not mean that the repository already implements these operations.
